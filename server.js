@@ -9,8 +9,8 @@ app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
 
 const KEYS_FILE = './keys.json';
-const DISCORD_GUILD_ID = '1470282357381533708'; // Discord Server ID mo
-const DISCORD_BOT_TOKEN = 'MTUwOTU5ODY4NTA4Mjk0MzU2OQ.GfT_s1.rRNtJkNeg65JGPvSIIETWEyt3IkVEUcdLwg12o'; // Bot token mo
+const DISCORD_GUILD_ID = 'YOUR_SERVER_ID'; // Discord Server ID mo
+const DISCORD_BOT_TOKEN = 'YOUR_BOT_TOKEN'; // Bot token mo
 
 // Load keys
 function loadKeys() {
